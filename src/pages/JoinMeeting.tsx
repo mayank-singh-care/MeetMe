@@ -86,8 +86,8 @@ export default function JoinMeeting() {
   }, [params.id, user, userLoaded, createToast, navigate]);
   const myMeeting = async (element: any) => {
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
-      parseInt("2083706158"!),
-      "8d4432e057739cca5d52726c35e3d21b" as string,
+      parseInt("2130202986"!),
+      "46d7179efaf2b97c92376f2f62a4491e" as string,
       params.id as string,
       user?.uid ? user.uid : generateMeetingID(),
       user?.displayName ? user.displayName : generateMeetingID()
